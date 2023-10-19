@@ -1,0 +1,93 @@
+.container-global{
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+body{
+    background-color: #121114;
+}
+
+.box-global{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 2px;
+
+}
+/*Esta classe armazena os valores dos 3 primeiros cards (Aline, Pedrinho e Júlia)*/
+.card-1{
+    width: 160px;
+    height: 160px;
+    background-color: #121114;
+    border-radius: 10px;
+    margin: 2px;
+    transform: translate(0px, 0px);
+    overflow: hidden;
+    padding: 1.6px;
+}
+
+/*Esta classe armazena os valores do 4º card (Adicionar perfil), pois a imagem não tinha fundo e tive que criar um houver específico para ela*/
+.card-2{
+    width: 160px;
+    height: 160px;
+    background-color: #1E1D20;
+    border-radius: 10px;
+    margin: 2px;
+    transform: translate(0px, 0px);
+    overflow: hidden;
+    padding: 1.5;
+}
+/*Quem está assistindo?*/
+h2{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    transform: translate(0px, -60px);
+}
+
+
+p{
+    text-align: center;
+    color: rgb(201, 197, 197);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+button{
+    width: 278px;
+    height: 59px;
+    border-radius: 15px;
+    background-color: #000000;
+    color: white;
+    transform: translate(210px, 60px);
+    margin-top: -8px;
+    font-size: 20px;
+}
+
+.logo-kenzieflix{
+    width: 286px;
+    margin-top: -55px;
+    padding: 194px;
+}
+
+.card-2 img{
+    padding: 35px;
+    margin: 10px;
+}
+
+.card-1:hover{
+    background-color: white;
+}
+
+.card-2:hover{
+    background-color: rgba(255, 255, 255, 0.123);
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+
+}
